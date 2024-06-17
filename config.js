@@ -8,17 +8,16 @@ import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
-['595972157130', '⺪⃢łV₳₦🇵🇾⃢乂', true],
-['51929972576', 'Axx', true],
-['5491168758497', '༊⃢ＳＩＣＫ•ᴇɴᴢᴏ ᴍᴀᴛɪᴀꜱ༃⃢🇦🇷', true],
-['5493794297363', 'Gabriel', true]]
+['59379133620', 'SpiderBot', true],
+['59379133620', 'Ricardo', true],
+['50764206082', 'Anthony Org', true]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
 //Sólo aplica para opción 2 (ser bot con código de texto de 8 digitos)
 global.botNumberCode = '' //Ejemplo: +59309090909
 global.confirmCode = ''
 
-global.suittag = ['595972157130']
+global.suittag = ['59379133620']
 global.mods = []
 global.prems = []
 
