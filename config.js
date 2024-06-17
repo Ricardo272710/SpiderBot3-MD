@@ -8,8 +8,8 @@ import chalk from 'chalk'
 import { fileURLToPath, pathToFileURL } from 'url'
 
  global.owner = [
-['59379133620', 'Ricardo Adm', true],
-['59379133620', 'Ricardo Adm', true],
+['593979133620', '💻Ricardo - Desarrollador👑', true],
+['593979133620', 'Ricardo Adm', true],
 ['50764206082', 'Anthony Org', true]]
 
 //BETA: Si quiere evitar escribir el número que será bot en la consola, agregué desde aquí entonces:
