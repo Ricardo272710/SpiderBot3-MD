@@ -4,9 +4,9 @@ const handler = async (m, {conn, usedPrefix, command}) => {
  try {    
   let q = m.quoted ? m.quoted : m;
   let mime = (q.msg || q).mimetype || q.mediaType || "";
-  if (!mime) throw `🍃 Envie una imagen o responda a la imagen utilizando el comando: ${usedPrefix + command}`;
-  if (!/image\/(jpe?g|png)/.test(mime)) throw `🍂 El formato del archivo (${mime}) no es compatible, envía o responda a una imagen`;
-  m.reply("🍃 *Espere Un Momento*\n- *🌺 𝙈𝙀𝙅𝙊𝙍𝘼𝙉𝘿𝙊 𝙇𝘼 𝘾𝘼𝙇𝙄𝘿𝘼𝘿...*");
+  if (!mime) throw `𝙩🕷️ Envie una imagen o responda a la imagen utilizando el comando: ${usedPrefix + command}`;
+  if (!/image\/(jpe?g|png)/.test(mime)) throw `🕷️ El formato del archivo (${mime}) no es compatible, envía o responda a una imagen`;
+  m.reply("🍃 *Espere Un Momento*\n- *🕷️ 𝙈𝙀𝙅𝙊𝙍𝘼𝙉𝘿𝙊 𝙇𝘼 𝘾𝘼𝙇𝙄𝘿𝘼𝘿...*");
   let img = await q.download?.();
   let pr = await remini(img, "enhance");
   conn.sendMessage(m.chat, {image: pr}, {quoted: fkontak});
